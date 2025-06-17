@@ -44,7 +44,7 @@ def contact_api(loopAmt):
         search_params = {
         "originLocationCode": "NYC",
         "destinationLocationCode": "CHS",
-        # 2025 oct 1st
+        # 2025 x index thru loopAmt
         "departureDate": f"2025-10-{str(loopAmt).zfill(2)}",
         # these two are required.
         "adults": 1,
