@@ -1,36 +1,12 @@
-from dotenv import load_dotenv
-import os
+from auth import generate_access_token
+from db_utils import init_db, append_flight_data
+from iso_convert import format_iso8601_duration
+from concurrent.futures import ThreadPoolExecutor
 import requests
-load_dotenv()
+from airlineUtils import get_airline_name
 
-api_key = os.getenv("AMADEUS_API_KEY")
-api_secret = os.getenv("AMADEUS_API_SECRET")
 
-print("API Key:", api_key)
-print("API Secret:", api_secret)
-
-def generate_access_token():
-    base_url = "https://test.api.amadeus.com/v1/security/oauth2/token"
-    headers = {
-        "Content-Type": "application/x-www-form-urlencoded"
-    }
-    data = {
-        "grant_type": "client_credentials",
-        "client_id": api_key,
-        "client_secret": api_secret
-    }
-
-    response = requests.post(base_url, headers=headers, data=data)
-
-    if response.status_code == 200:
-        access_token = response.json().get("access_token")
-        print("Access Token:", access_token)
-        return access_token
-    else:
-        print("Error generating access token:", response.text)
-        return None
-
-def contact_api(loopAmt): 
+def contact_api(loopAmt, origin, destination):
     finalResult = []
     index = 0
 
@@ -39,23 +15,71 @@ def contact_api(loopAmt):
         "Authorization": f"Bearer {generate_access_token()}",
         "Content-Type": "application/json"
     }
-    # do not change the search parameters except origin destination & depart!
+
     while index < loopAmt:
+        day = str(index + 1).zfill(2)
         search_params = {
-        "originLocationCode": "NYC",
-        "destinationLocationCode": "CHS",
-        # 2025 x index thru loopAmt
-        "departureDate": f"2025-10-{str(loopAmt).zfill(2)}",
-        # these two are required.
-        "adults": 1,
-        "max": 3
+            "originLocationCode": f"{origin}",
+            "destinationLocationCode": f"{destination}",
+            "departureDate": f"2025-10-{day}",
+            "currencyCode": "USD",
+            "adults": 1,
+            "max": 3
         }
 
         response = requests.get(base_url, params=search_params, headers=headers)
-
-        index += 1
         res = response.json()
-        finalResult.append(res)
-        print(f"Response {index}: {res['data'][0]['itineraries'][0]['segments'][0]['carrierCode']}")
-#Code is able to return flight data for one day for x amount of results
-contact_api(1)
+        data = res.get("data", [])
+
+        flights_to_insert = []
+        for offer in data:
+            # Get the first segment of the first itinerary
+            segment = offer['itineraries'][0]['segments'][0]
+
+            flight_data = {
+                "flight_number": f"{segment['carrierCode']}{segment['number']}",
+                "departure": f"{origin}",
+                "arrival": f"{destination}",
+                "date": segment['departure']['at'][:10],
+                "raw_data": str(offer),  # optional: store full offer for reference
+                "price": offer['price']['total'] + offer['price']['currency'],
+                "airline": segment['carrierCode'],
+                "flight_time": format_iso8601_duration(segment['duration'])
+            }
+
+            flights_to_insert.append({
+                "flight_number": flight_data["flight_number"],
+                "departure": flight_data["departure"],
+                "arrival": flight_data["arrival"],
+                "date": flight_data["date"],
+                "data": flight_data["raw_data"],
+                "price": flight_data["price"],
+                "airline": flight_data["airline"],
+                "flight_time": flight_data["flight_time"]
+            })
+
+        append_flight_data(flights_to_insert)  # 🔥 insert into DB
+        finalResult.append(data)
+
+        print(f"Inserted {len(flights_to_insert)} flights for 2025-10-{day}")
+        index += 1
+
+jobs = [
+    (31, "JFK", "LAX"),
+    (31, "JFK", "LHR"),
+    (31, "LAX", "NRT"),
+    (31, "YYZ", "FRA"),
+    (31, "ORD", "DOH"),
+]
+
+# Use ThreadPoolExecutor to run them in parallel
+with ThreadPoolExecutor(max_workers=5) as executor:
+    futures = [executor.submit(contact_api, *job) for job in jobs]
+
+    # Wait for all to finish (optional, but good for logging or catching errors)
+    for future in futures:
+        try:
+            result = future.result()
+        except Exception as e:
+            print(f"Error in thread: {e}")
+            
