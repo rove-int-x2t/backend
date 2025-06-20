@@ -83,3 +83,30 @@ with ThreadPoolExecutor(max_workers=5) as executor:
         except Exception as e:
             print(f"Error in thread: {e}")
             
+carrier_map = {
+    "B6": "JetBlue Airways",
+    "UA": "United Airlines",
+    "AA": "American Airlines",
+    "DL": "Delta Air Lines",
+    "LH": "Lufthansa",
+    "QR": "Qatar Airways",
+    "BA": "British Airways",
+    "AC": "Air Canada",
+    "NH": "All Nippon Airways",
+    # add others as needed
+}
+
+def update_airline_names(db_path="database.db"):
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+
+    for code, name in carrier_map.items():
+        cursor.execute("""
+            UPDATE flights
+            SET airline_name = ?
+            WHERE flight_number LIKE ?
+        """, (name, f"{code}%"))
+
+    conn.commit()
+    conn.close()
+            
