@@ -1,0 +1,448 @@
+id,flight_number,departure,arrival,date,price,airline,flight_time,airline_full_name
+1,B6123,JFK,LAX,2025-10-01,116.52USD,B6,5 hours 50 minutes,JetBlue Airways
+2,B6223,JFK,LAX,2025-10-01,116.52USD,B6,5 hours 55 minutes,JetBlue Airways
+3,B6423,JFK,LAX,2025-10-01,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+4,WS5943,YYZ,FRA,2025-10-01,362.90USD,WS,7 hours 45 minutes,WestJet
+5,S4360,YYZ,FRA,2025-10-01,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+6,S4360,YYZ,FRA,2025-10-01,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+7,FI614,JFK,LHR,2025-10-01,218.60USD,FI,5 hours 50 minutes,Icelandair
+8,FI614,JFK,LHR,2025-10-01,218.60USD,FI,5 hours 50 minutes,Icelandair
+9,VS26,JFK,LHR,2025-10-01,274.00USD,VS,6 hours 50 minutes,Virgin Atlantic
+10,B6223,JFK,LAX,2025-10-02,116.52USD,B6,5 hours 55 minutes,JetBlue Airways
+11,B6423,JFK,LAX,2025-10-02,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+12,B6523,JFK,LAX,2025-10-02,116.52USD,B6,5 hours 59 minutes,JetBlue Airways
+13,JL61,LAX,NRT,2025-10-01,418.80USD,JL,11 hours 30 minutes,Japan Airlines
+14,JL69,LAX,NRT,2025-10-01,425.40USD,JL,12 hours 20 minutes,Japan Airlines
+15,JL69,LAX,NRT,2025-10-01,425.40USD,JL,12 hours 20 minutes,Japan Airlines
+16,AI126,ORD,DOH,2025-10-01,462.65USD,AI,14 hours 25 minutes,Air India
+17,EY10,ORD,DOH,2025-10-01,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+18,EY10,ORD,DOH,2025-10-01,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+19,WS252,YYZ,FRA,2025-10-02,328.90USD,WS,2 hours 9 minutes,WestJet
+20,WS5943,YYZ,FRA,2025-10-02,362.90USD,WS,7 hours 45 minutes,WestJet
+21,S4322,YYZ,FRA,2025-10-02,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+22,B6123,JFK,LAX,2025-10-03,116.52USD,B6,5 hours 50 minutes,JetBlue Airways
+23,B6223,JFK,LAX,2025-10-03,116.52USD,B6,5 hours 55 minutes,JetBlue Airways
+24,B6423,JFK,LAX,2025-10-03,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+25,FI614,JFK,LHR,2025-10-02,268.60USD,FI,5 hours 50 minutes,Icelandair
+26,FI618,JFK,LHR,2025-10-02,268.60USD,FI,5 hours 45 minutes,Icelandair
+27,FI614,JFK,LHR,2025-10-02,268.60USD,FI,5 hours 50 minutes,Icelandair
+28,EY10,ORD,DOH,2025-10-03,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+29,EY10,ORD,DOH,2025-10-03,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+30,AI126,ORD,DOH,2025-10-03,711.65USD,AI,14 hours 25 minutes,Air India
+31,B6423,JFK,LAX,2025-10-04,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+32,B61223,JFK,LAX,2025-10-04,116.52USD,B6,6 hours 4 minutes,JetBlue Airways
+33,B6623,JFK,LAX,2025-10-04,116.52USD,B6,6 hours 5 minutes,JetBlue Airways
+34,WS252,YYZ,FRA,2025-10-03,328.90USD,WS,2 hours 9 minutes,WestJet
+35,WS5943,YYZ,FRA,2025-10-03,362.90USD,WS,7 hours 45 minutes,WestJet
+36,S4322,YYZ,FRA,2025-10-03,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+37,CA984,LAX,NRT,2025-10-02,453.50USD,CA,15 hours 5 minutes,Air China
+38,CA984,LAX,NRT,2025-10-02,453.50USD,CA,15 hours 5 minutes,Air China
+39,AS1317,LAX,NRT,2025-10-02,457.00USD,AS,2 hours 58 minutes,Alaska Airlines
+40,FI614,JFK,LHR,2025-10-03,268.60USD,FI,5 hours 50 minutes,Icelandair
+41,FI614,JFK,LHR,2025-10-03,268.60USD,FI,5 hours 50 minutes,Icelandair
+42,FI618,JFK,LHR,2025-10-03,268.60USD,FI,5 hours 45 minutes,Icelandair
+43,B6123,JFK,LAX,2025-10-05,158.49USD,B6,5 hours 50 minutes,JetBlue Airways
+44,B6223,JFK,LAX,2025-10-05,158.49USD,B6,5 hours 55 minutes,JetBlue Airways
+45,B6423,JFK,LAX,2025-10-05,158.49USD,B6,5 hours 58 minutes,JetBlue Airways
+46,AI126,ORD,DOH,2025-10-05,506.65USD,AI,14 hours 25 minutes,Air India
+47,QR726,ORD,DOH,2025-10-05,725.05USD,QR,13 hours 30 minutes,Qatar Airways
+48,AS329,ORD,DOH,2025-10-05,784.55USD,AS,4 hours 50 minutes,Alaska Airlines
+49,B6123,JFK,LAX,2025-10-06,116.52USD,B6,5 hours 50 minutes,JetBlue Airways
+50,B6223,JFK,LAX,2025-10-06,116.52USD,B6,5 hours 55 minutes,JetBlue Airways
+51,B6423,JFK,LAX,2025-10-06,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+52,FI614,JFK,LHR,2025-10-04,268.60USD,FI,5 hours 50 minutes,Icelandair
+53,FI618,JFK,LHR,2025-10-04,268.60USD,FI,5 hours 45 minutes,Icelandair
+54,FI614,JFK,LHR,2025-10-04,268.60USD,FI,5 hours 50 minutes,Icelandair
+55,CA984,LAX,NRT,2025-10-03,453.50USD,CA,15 hours 5 minutes,Air China
+56,CA984,LAX,NRT,2025-10-03,453.50USD,CA,15 hours 5 minutes,Air China
+57,AS1317,LAX,NRT,2025-10-03,457.00USD,AS,2 hours 58 minutes,Alaska Airlines
+58,WS5943,YYZ,FRA,2025-10-04,310.90USD,WS,7 hours 45 minutes,WestJet
+59,TP258,YYZ,FRA,2025-10-04,539.30USD,TP,7 hours 15 minutes,TAP Air Portugal
+60,DE2403,YYZ,FRA,2025-10-04,640.50USD,DE,7 hours 45 minutes,Condor
+61,AI126,ORD,DOH,2025-10-06,462.65USD,AI,14 hours 25 minutes,Air India
+62,EY10,ORD,DOH,2025-10-06,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+63,EY10,ORD,DOH,2025-10-06,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+64,B6123,JFK,LAX,2025-10-07,116.52USD,B6,5 hours 50 minutes,JetBlue Airways
+65,B6223,JFK,LAX,2025-10-07,116.52USD,B6,5 hours 55 minutes,JetBlue Airways
+66,B6423,JFK,LAX,2025-10-07,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+67,FI614,JFK,LHR,2025-10-05,218.60USD,FI,5 hours 50 minutes,Icelandair
+68,FI618,JFK,LHR,2025-10-05,218.60USD,FI,5 hours 45 minutes,Icelandair
+69,FI614,JFK,LHR,2025-10-05,218.60USD,FI,5 hours 50 minutes,Icelandair
+70,AI126,ORD,DOH,2025-10-07,462.65USD,AI,14 hours 25 minutes,Air India
+71,EY10,ORD,DOH,2025-10-07,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+72,EY10,ORD,DOH,2025-10-07,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+73,WS5943,YYZ,FRA,2025-10-05,310.90USD,WS,7 hours 45 minutes,WestJet
+74,TP258,YYZ,FRA,2025-10-05,469.30USD,TP,7 hours 15 minutes,TAP Air Portugal
+75,TP262,YYZ,FRA,2025-10-05,469.30USD,TP,7 hours 15 minutes,TAP Air Portugal
+76,B6423,JFK,LAX,2025-10-08,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+77,B6323,JFK,LAX,2025-10-08,116.52USD,B6,6 hours 1 minute,JetBlue Airways
+78,B61223,JFK,LAX,2025-10-08,116.52USD,B6,6 hours 4 minutes,JetBlue Airways
+79,FI614,JFK,LHR,2025-10-06,218.60USD,FI,5 hours 50 minutes,Icelandair
+80,FI614,JFK,LHR,2025-10-06,218.60USD,FI,5 hours 50 minutes,Icelandair
+81,VS26,JFK,LHR,2025-10-06,274.00USD,VS,6 hours 50 minutes,Virgin Atlantic
+82,B6123,JFK,LAX,2025-10-09,116.52USD,B6,5 hours 50 minutes,JetBlue Airways
+83,B6223,JFK,LAX,2025-10-09,116.52USD,B6,5 hours 55 minutes,JetBlue Airways
+84,B6423,JFK,LAX,2025-10-09,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+85,AS1317,LAX,NRT,2025-10-04,457.00USD,AS,2 hours 58 minutes,Alaska Airlines
+86,AS1179,LAX,NRT,2025-10-04,457.00USD,AS,3 hours,Alaska Airlines
+87,HA6200,LAX,NRT,2025-10-04,457.00USD,HA,3 hours,Hawaiian Airlines
+88,WS5943,YYZ,FRA,2025-10-06,310.90USD,WS,7 hours 45 minutes,WestJet
+89,S4372,YYZ,FRA,2025-10-06,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+90,S4372,YYZ,FRA,2025-10-06,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+91,AI126,ORD,DOH,2025-10-08,608.65USD,AI,14 hours 25 minutes,Air India
+92,EY10,ORD,DOH,2025-10-08,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+93,EY10,ORD,DOH,2025-10-08,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+94,B6423,JFK,LAX,2025-10-10,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+95,B6323,JFK,LAX,2025-10-10,116.52USD,B6,6 hours 1 minute,JetBlue Airways
+96,B61223,JFK,LAX,2025-10-10,116.52USD,B6,6 hours 4 minutes,JetBlue Airways
+97,FI614,JFK,LHR,2025-10-07,218.60USD,FI,5 hours 50 minutes,Icelandair
+98,FI618,JFK,LHR,2025-10-07,218.60USD,FI,5 hours 45 minutes,Icelandair
+99,FI614,JFK,LHR,2025-10-07,218.60USD,FI,5 hours 50 minutes,Icelandair
+100,AI126,ORD,DOH,2025-10-09,638.65USD,AI,14 hours 25 minutes,Air India
+101,EY10,ORD,DOH,2025-10-09,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+102,EY10,ORD,DOH,2025-10-09,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+103,B6423,JFK,LAX,2025-10-11,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+104,B61223,JFK,LAX,2025-10-11,116.52USD,B6,6 hours 4 minutes,JetBlue Airways
+105,B6623,JFK,LAX,2025-10-11,116.52USD,B6,6 hours 5 minutes,JetBlue Airways
+106,AS1317,LAX,NRT,2025-10-05,415.00USD,AS,2 hours 58 minutes,Alaska Airlines
+107,AS1179,LAX,NRT,2025-10-05,415.00USD,AS,3 hours,Alaska Airlines
+108,HA6200,LAX,NRT,2025-10-05,415.00USD,HA,3 hours,Hawaiian Airlines
+109,WS252,YYZ,FRA,2025-10-07,310.90USD,WS,2 hours 9 minutes,WestJet
+110,WS252,YYZ,FRA,2025-10-07,310.90USD,WS,2 hours 9 minutes,WestJet
+111,S4322,YYZ,FRA,2025-10-07,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+112,B6123,JFK,LAX,2025-10-12,158.49USD,B6,5 hours 50 minutes,JetBlue Airways
+113,B6223,JFK,LAX,2025-10-12,158.49USD,B6,5 hours 55 minutes,JetBlue Airways
+114,B6423,JFK,LAX,2025-10-12,158.49USD,B6,5 hours 58 minutes,JetBlue Airways
+115,AI126,ORD,DOH,2025-10-10,711.65USD,AI,14 hours 25 minutes,Air India
+116,QR726,ORD,DOH,2025-10-10,765.05USD,QR,13 hours 30 minutes,Qatar Airways
+117,B6312,ORD,DOH,2025-10-10,800.05USD,B6,2 hours 24 minutes,JetBlue Airways
+118,FI614,JFK,LHR,2025-10-08,218.60USD,FI,5 hours 50 minutes,Icelandair
+119,FI614,JFK,LHR,2025-10-08,218.60USD,FI,5 hours 50 minutes,Icelandair
+120,VS26,JFK,LHR,2025-10-08,274.00USD,VS,6 hours 50 minutes,Virgin Atlantic
+121,B6123,JFK,LAX,2025-10-13,116.52USD,B6,5 hours 50 minutes,JetBlue Airways
+122,B6223,JFK,LAX,2025-10-13,116.52USD,B6,5 hours 55 minutes,JetBlue Airways
+123,B6423,JFK,LAX,2025-10-13,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+124,EY10,ORD,DOH,2025-10-11,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+125,EY10,ORD,DOH,2025-10-11,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+126,AI126,ORD,DOH,2025-10-11,711.65USD,AI,14 hours 25 minutes,Air India
+127,S4360,YYZ,FRA,2025-10-08,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+128,S4360,YYZ,FRA,2025-10-08,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+129,WS5943,YYZ,FRA,2025-10-08,415.90USD,WS,7 hours 45 minutes,WestJet
+130,FI614,JFK,LHR,2025-10-09,268.60USD,FI,5 hours 50 minutes,Icelandair
+131,FI618,JFK,LHR,2025-10-09,268.60USD,FI,5 hours 45 minutes,Icelandair
+132,FI614,JFK,LHR,2025-10-09,268.60USD,FI,5 hours 50 minutes,Icelandair
+133,AS1317,LAX,NRT,2025-10-06,415.00USD,AS,2 hours 58 minutes,Alaska Airlines
+134,AS1179,LAX,NRT,2025-10-06,415.00USD,AS,3 hours,Alaska Airlines
+135,HA6200,LAX,NRT,2025-10-06,415.00USD,HA,3 hours,Hawaiian Airlines
+136,EY10,ORD,DOH,2025-10-12,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+137,EY10,ORD,DOH,2025-10-12,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+138,AI126,ORD,DOH,2025-10-12,681.65USD,AI,14 hours 25 minutes,Air India
+139,B6123,JFK,LAX,2025-10-14,116.52USD,B6,5 hours 50 minutes,JetBlue Airways
+140,B6223,JFK,LAX,2025-10-14,116.52USD,B6,5 hours 55 minutes,JetBlue Airways
+141,B6423,JFK,LAX,2025-10-14,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+142,FI614,JFK,LHR,2025-10-11,268.60USD,FI,5 hours 50 minutes,Icelandair
+143,FI618,JFK,LHR,2025-10-11,270.20USD,FI,5 hours 45 minutes,Icelandair
+144,VS138,JFK,LHR,2025-10-11,274.00USD,VS,7 hours 10 minutes,Virgin Atlantic
+145,AI126,ORD,DOH,2025-10-13,553.65USD,AI,14 hours 25 minutes,Air India
+146,EY10,ORD,DOH,2025-10-13,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+147,EY10,ORD,DOH,2025-10-13,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+148,B6223,JFK,LAX,2025-10-15,116.52USD,B6,5 hours 55 minutes,JetBlue Airways
+149,B6423,JFK,LAX,2025-10-15,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+150,B6523,JFK,LAX,2025-10-15,116.52USD,B6,5 hours 59 minutes,JetBlue Airways
+151,WS252,YYZ,FRA,2025-10-09,328.90USD,WS,2 hours 9 minutes,WestJet
+152,S4322,YYZ,FRA,2025-10-09,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+153,S4322,YYZ,FRA,2025-10-09,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+154,UA32,LAX,NRT,2025-10-07,415.00USD,UA,11 hours 30 minutes,United Airlines
+155,AS1317,LAX,NRT,2025-10-07,415.00USD,AS,2 hours 58 minutes,Alaska Airlines
+156,AS1179,LAX,NRT,2025-10-07,415.00USD,AS,3 hours,Alaska Airlines
+157,B6123,JFK,LAX,2025-10-16,116.52USD,B6,5 hours 50 minutes,JetBlue Airways
+158,B6223,JFK,LAX,2025-10-16,116.52USD,B6,5 hours 55 minutes,JetBlue Airways
+159,B6423,JFK,LAX,2025-10-16,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+160,AI126,ORD,DOH,2025-10-14,553.65USD,AI,14 hours 25 minutes,Air India
+161,EY10,ORD,DOH,2025-10-14,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+162,EY10,ORD,DOH,2025-10-14,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+163,FI614,JFK,LHR,2025-10-12,218.60USD,FI,5 hours 50 minutes,Icelandair
+164,FI618,JFK,LHR,2025-10-12,218.60USD,FI,5 hours 45 minutes,Icelandair
+165,FI614,JFK,LHR,2025-10-12,218.60USD,FI,5 hours 50 minutes,Icelandair
+166,WS252,YYZ,FRA,2025-10-10,328.90USD,WS,2 hours 9 minutes,WestJet
+167,WS252,YYZ,FRA,2025-10-10,328.90USD,WS,2 hours 9 minutes,WestJet
+168,WS5943,YYZ,FRA,2025-10-10,362.90USD,WS,7 hours 45 minutes,WestJet
+169,B6223,JFK,LAX,2025-10-17,116.52USD,B6,5 hours 55 minutes,JetBlue Airways
+170,B6423,JFK,LAX,2025-10-17,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+171,B6523,JFK,LAX,2025-10-17,116.52USD,B6,5 hours 59 minutes,JetBlue Airways
+172,AI126,ORD,DOH,2025-10-15,608.65USD,AI,14 hours 25 minutes,Air India
+173,EY10,ORD,DOH,2025-10-15,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+174,EY10,ORD,DOH,2025-10-15,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+175,JL61,LAX,NRT,2025-10-08,418.80USD,JL,11 hours 30 minutes,Japan Airlines
+176,JL69,LAX,NRT,2025-10-08,425.40USD,JL,12 hours 20 minutes,Japan Airlines
+177,NH5,LAX,NRT,2025-10-08,433.60USD,NH,11 hours 45 minutes,All Nippon Airways
+178,FI614,JFK,LHR,2025-10-13,218.60USD,FI,5 hours 50 minutes,Icelandair
+179,FI614,JFK,LHR,2025-10-13,218.60USD,FI,5 hours 50 minutes,Icelandair
+180,VS26,JFK,LHR,2025-10-13,274.00USD,VS,6 hours 50 minutes,Virgin Atlantic
+181,B6423,JFK,LAX,2025-10-18,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+182,B61223,JFK,LAX,2025-10-18,116.52USD,B6,6 hours 4 minutes,JetBlue Airways
+183,B6623,JFK,LAX,2025-10-18,116.52USD,B6,6 hours 5 minutes,JetBlue Airways
+184,AI126,ORD,DOH,2025-10-16,583.65USD,AI,14 hours 25 minutes,Air India
+185,EY10,ORD,DOH,2025-10-16,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+186,EY10,ORD,DOH,2025-10-16,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+187,WS5943,YYZ,FRA,2025-10-11,362.90USD,WS,7 hours 45 minutes,WestJet
+188,DE2403,YYZ,FRA,2025-10-11,640.50USD,DE,7 hours 45 minutes,Condor
+189,FI602,YYZ,FRA,2025-10-11,661.50USD,FI,5 hours 30 minutes,Icelandair
+190,B6123,JFK,LAX,2025-10-19,158.49USD,B6,5 hours 50 minutes,JetBlue Airways
+191,B6223,JFK,LAX,2025-10-19,158.49USD,B6,5 hours 55 minutes,JetBlue Airways
+192,B6423,JFK,LAX,2025-10-19,158.49USD,B6,5 hours 58 minutes,JetBlue Airways
+193,FI614,JFK,LHR,2025-10-14,218.60USD,FI,5 hours 50 minutes,Icelandair
+194,FI618,JFK,LHR,2025-10-14,220.20USD,FI,5 hours 45 minutes,Icelandair
+195,FI618,JFK,LHR,2025-10-14,260.60USD,FI,5 hours 45 minutes,Icelandair
+196,AI126,ORD,DOH,2025-10-17,711.65USD,AI,14 hours 25 minutes,Air India
+197,EY10,ORD,DOH,2025-10-17,726.75USD,EY,13 hours 25 minutes,Etihad Airways
+198,EY10,ORD,DOH,2025-10-17,726.75USD,EY,13 hours 25 minutes,Etihad Airways
+199,JL61,LAX,NRT,2025-10-09,460.80USD,JL,11 hours 30 minutes,Japan Airlines
+200,NH5,LAX,NRT,2025-10-09,475.60USD,NH,11 hours 45 minutes,All Nippon Airways
+201,CA984,LAX,NRT,2025-10-09,488.50USD,CA,15 hours 5 minutes,Air China
+202,B6123,JFK,LAX,2025-10-20,116.52USD,B6,5 hours 50 minutes,JetBlue Airways
+203,B6223,JFK,LAX,2025-10-20,116.52USD,B6,5 hours 55 minutes,JetBlue Airways
+204,B6423,JFK,LAX,2025-10-20,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+205,AI126,ORD,DOH,2025-10-18,711.65USD,AI,14 hours 25 minutes,Air India
+206,QR726,ORD,DOH,2025-10-18,765.05USD,QR,13 hours 5 minutes,Qatar Airways
+207,B6312,ORD,DOH,2025-10-18,800.05USD,B6,2 hours 24 minutes,JetBlue Airways
+208,FI614,JFK,LHR,2025-10-15,218.60USD,FI,5 hours 50 minutes,Icelandair
+209,VS154,JFK,LHR,2025-10-15,274.00USD,VS,7 hours 20 minutes,Virgin Atlantic
+210,VS48,JFK,LHR,2025-10-15,274.00USD,VS,7 hours 36 minutes,Virgin Atlantic
+211,WS5943,YYZ,FRA,2025-10-12,310.90USD,WS,7 hours 45 minutes,WestJet
+212,WS252,YYZ,FRA,2025-10-12,310.90USD,WS,2 hours 9 minutes,WestJet
+213,TP258,YYZ,FRA,2025-10-12,469.30USD,TP,7 hours 15 minutes,TAP Air Portugal
+214,B6123,JFK,LAX,2025-10-21,116.52USD,B6,5 hours 50 minutes,JetBlue Airways
+215,B6223,JFK,LAX,2025-10-21,116.52USD,B6,5 hours 55 minutes,JetBlue Airways
+216,B6423,JFK,LAX,2025-10-21,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+217,NH5,LAX,NRT,2025-10-10,475.60USD,NH,11 hours 45 minutes,All Nippon Airways
+218,CA984,LAX,NRT,2025-10-10,488.50USD,CA,15 hours 5 minutes,Air China
+219,CA984,LAX,NRT,2025-10-10,488.50USD,CA,15 hours 5 minutes,Air China
+220,B6123,JFK,LAX,2025-10-22,116.52USD,B6,5 hours 50 minutes,JetBlue Airways
+221,B6223,JFK,LAX,2025-10-22,116.52USD,B6,5 hours 55 minutes,JetBlue Airways
+222,B6423,JFK,LAX,2025-10-22,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+223,AI126,ORD,DOH,2025-10-19,681.65USD,AI,14 hours 25 minutes,Air India
+224,B65562,ORD,DOH,2025-10-19,720.05USD,B6,13 hours 5 minutes,JetBlue Airways
+225,QR726,ORD,DOH,2025-10-19,725.05USD,QR,13 hours 5 minutes,Qatar Airways
+226,FI614,JFK,LHR,2025-10-16,268.60USD,FI,5 hours 50 minutes,Icelandair
+227,VS4030,JFK,LHR,2025-10-16,274.00USD,VS,7 hours 15 minutes,Virgin Atlantic
+228,VS4,JFK,LHR,2025-10-16,274.00USD,VS,7 hours 25 minutes,Virgin Atlantic
+229,WS5943,YYZ,FRA,2025-10-13,310.90USD,WS,7 hours 45 minutes,WestJet
+230,S4372,YYZ,FRA,2025-10-13,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+231,S4372,YYZ,FRA,2025-10-13,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+232,B6123,JFK,LAX,2025-10-23,116.52USD,B6,5 hours 50 minutes,JetBlue Airways
+233,B6223,JFK,LAX,2025-10-23,116.52USD,B6,5 hours 55 minutes,JetBlue Airways
+234,B6423,JFK,LAX,2025-10-23,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+235,AI126,ORD,DOH,2025-10-20,506.65USD,AI,14 hours 25 minutes,Air India
+236,EY10,ORD,DOH,2025-10-20,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+237,B65562,ORD,DOH,2025-10-20,720.05USD,B6,13 hours 5 minutes,JetBlue Airways
+238,B6123,JFK,LAX,2025-10-24,116.52USD,B6,5 hours 50 minutes,JetBlue Airways
+239,B6223,JFK,LAX,2025-10-24,116.52USD,B6,5 hours 55 minutes,JetBlue Airways
+240,B6423,JFK,LAX,2025-10-24,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+241,WS252,YYZ,FRA,2025-10-14,310.90USD,WS,2 hours 9 minutes,WestJet
+242,S4322,YYZ,FRA,2025-10-14,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+243,S4322,YYZ,FRA,2025-10-14,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+244,UA1417,LAX,NRT,2025-10-11,470.60USD,UA,2 hours 16 minutes,United Airlines
+245,NH5,LAX,NRT,2025-10-11,475.60USD,NH,11 hours 45 minutes,All Nippon Airways
+246,WS1515,LAX,NRT,2025-10-11,564.00USD,WS,3 hours 5 minutes,WestJet
+247,FI614,JFK,LHR,2025-10-17,268.60USD,FI,5 hours 50 minutes,Icelandair
+248,VS138,JFK,LHR,2025-10-17,274.00USD,VS,7 hours 10 minutes,Virgin Atlantic
+249,VS4000,JFK,LHR,2025-10-17,274.00USD,VS,7 hours 15 minutes,Virgin Atlantic
+250,AI126,ORD,DOH,2025-10-21,462.65USD,AI,14 hours 25 minutes,Air India
+251,EY10,ORD,DOH,2025-10-21,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+252,EY10,ORD,DOH,2025-10-21,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+253,B6423,JFK,LAX,2025-10-25,116.52USD,B6,5 hours 58 minutes,JetBlue Airways
+254,B61223,JFK,LAX,2025-10-25,116.52USD,B6,6 hours 4 minutes,JetBlue Airways
+255,B6623,JFK,LAX,2025-10-25,116.52USD,B6,6 hours 5 minutes,JetBlue Airways
+256,WS5943,YYZ,FRA,2025-10-15,362.90USD,WS,7 hours 45 minutes,WestJet
+257,S4360,YYZ,FRA,2025-10-15,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+258,S4360,YYZ,FRA,2025-10-15,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+259,AI126,ORD,DOH,2025-10-22,506.65USD,AI,14 hours 25 minutes,Air India
+260,EY10,ORD,DOH,2025-10-22,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+261,EY10,ORD,DOH,2025-10-22,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+262,B62715,JFK,LAX,2025-10-26,158.49USD,B6,6 hours 18 minutes,JetBlue Airways
+263,B6623,JFK,LAX,2025-10-26,158.49USD,B6,6 hours 19 minutes,JetBlue Airways
+264,B6323,JFK,LAX,2025-10-26,158.49USD,B6,6 hours 19 minutes,JetBlue Airways
+265,FI614,JFK,LHR,2025-10-18,268.60USD,FI,5 hours 50 minutes,Icelandair
+266,VS10,JFK,LHR,2025-10-18,274.00USD,VS,7 hours 15 minutes,Virgin Atlantic
+267,VS46,JFK,LHR,2025-10-18,274.00USD,VS,7 hours 15 minutes,Virgin Atlantic
+268,B62715,JFK,LAX,2025-10-27,116.52USD,B6,6 hours 18 minutes,JetBlue Airways
+269,B6623,JFK,LAX,2025-10-27,116.52USD,B6,6 hours 19 minutes,JetBlue Airways
+270,B6323,JFK,LAX,2025-10-27,116.52USD,B6,6 hours 19 minutes,JetBlue Airways
+271,AI126,ORD,DOH,2025-10-23,536.65USD,AI,14 hours 25 minutes,Air India
+272,EY10,ORD,DOH,2025-10-23,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+273,EY10,ORD,DOH,2025-10-23,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+274,S4322,YYZ,FRA,2025-10-16,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+275,S4322,YYZ,FRA,2025-10-16,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+276,WS252,YYZ,FRA,2025-10-16,543.90USD,WS,2 hours 9 minutes,WestJet
+277,AS1317,LAX,NRT,2025-10-12,415.00USD,AS,2 hours 58 minutes,Alaska Airlines
+278,AS1179,LAX,NRT,2025-10-12,415.00USD,AS,3 hours,Alaska Airlines
+279,HA6200,LAX,NRT,2025-10-12,415.00USD,HA,3 hours,Hawaiian Airlines
+280,FI614,JFK,LHR,2025-10-19,218.60USD,FI,5 hours 50 minutes,Icelandair
+281,FI618,JFK,LHR,2025-10-19,220.20USD,FI,5 hours 45 minutes,Icelandair
+282,VS4000,JFK,LHR,2025-10-19,274.00USD,VS,7 hours 15 minutes,Virgin Atlantic
+283,B62715,JFK,LAX,2025-10-28,116.52USD,B6,6 hours 18 minutes,JetBlue Airways
+284,B6623,JFK,LAX,2025-10-28,116.52USD,B6,6 hours 19 minutes,JetBlue Airways
+285,B6323,JFK,LAX,2025-10-28,116.52USD,B6,6 hours 19 minutes,JetBlue Airways
+286,WS5943,YYZ,FRA,2025-10-17,362.90USD,WS,7 hours 45 minutes,WestJet
+287,S4322,YYZ,FRA,2025-10-17,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+288,S4322,YYZ,FRA,2025-10-17,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+289,AI126,ORD,DOH,2025-10-24,583.65USD,AI,14 hours 25 minutes,Air India
+290,EY10,ORD,DOH,2025-10-24,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+291,EY10,ORD,DOH,2025-10-24,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+292,B62715,JFK,LAX,2025-10-30,116.52USD,B6,6 hours 18 minutes,JetBlue Airways
+293,B6623,JFK,LAX,2025-10-30,116.52USD,B6,6 hours 19 minutes,JetBlue Airways
+294,B6323,JFK,LAX,2025-10-30,116.52USD,B6,6 hours 19 minutes,JetBlue Airways
+295,FI614,JFK,LHR,2025-10-20,218.60USD,FI,5 hours 50 minutes,Icelandair
+296,VS4000,JFK,LHR,2025-10-20,274.00USD,VS,7 hours 15 minutes,Virgin Atlantic
+297,B61107,JFK,LHR,2025-10-20,274.00USD,B6,7 hours 24 minutes,JetBlue Airways
+298,AS1317,LAX,NRT,2025-10-13,415.00USD,AS,2 hours 58 minutes,Alaska Airlines
+299,AS1179,LAX,NRT,2025-10-13,415.00USD,AS,3 hours,Alaska Airlines
+300,HA6200,LAX,NRT,2025-10-13,415.00USD,HA,3 hours,Hawaiian Airlines
+301,AI126,ORD,DOH,2025-10-25,583.65USD,AI,14 hours 25 minutes,Air India
+302,EY10,ORD,DOH,2025-10-25,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+303,EY10,ORD,DOH,2025-10-25,651.75USD,EY,13 hours 25 minutes,Etihad Airways
+304,B62715,JFK,LAX,2025-10-31,116.52USD,B6,6 hours 18 minutes,JetBlue Airways
+305,B6623,JFK,LAX,2025-10-31,116.52USD,B6,6 hours 19 minutes,JetBlue Airways
+306,B6323,JFK,LAX,2025-10-31,116.52USD,B6,6 hours 19 minutes,JetBlue Airways
+307,WS5943,YYZ,FRA,2025-10-18,415.90USD,WS,7 hours 45 minutes,WestJet
+308,TP258,YYZ,FRA,2025-10-18,500.30USD,TP,7 hours 15 minutes,TAP Air Portugal
+309,DE2403,YYZ,FRA,2025-10-18,640.50USD,DE,7 hours 45 minutes,Condor
+310,FI614,JFK,LHR,2025-10-21,218.60USD,FI,5 hours 50 minutes,Icelandair
+311,FI618,JFK,LHR,2025-10-21,220.20USD,FI,5 hours 45 minutes,Icelandair
+312,VS10,JFK,LHR,2025-10-21,274.00USD,VS,7 hours 15 minutes,Virgin Atlantic
+313,AI126,ORD,DOH,2025-10-26,553.65USD,AI,14 hours 30 minutes,Air India
+314,EY10,ORD,DOH,2025-10-26,651.75USD,EY,13 hours 10 minutes,Etihad Airways
+315,EY10,ORD,DOH,2025-10-26,651.75USD,EY,13 hours 10 minutes,Etihad Airways
+316,WS5943,YYZ,FRA,2025-10-19,310.90USD,WS,7 hours 45 minutes,WestJet
+317,WS252,YYZ,FRA,2025-10-19,310.90USD,WS,2 hours 9 minutes,WestJet
+318,TP258,YYZ,FRA,2025-10-19,469.30USD,TP,7 hours 15 minutes,TAP Air Portugal
+319,AS1317,LAX,NRT,2025-10-15,415.00USD,AS,2 hours 58 minutes,Alaska Airlines
+320,AS1179,LAX,NRT,2025-10-15,415.00USD,AS,3 hours,Alaska Airlines
+321,UA1997,LAX,NRT,2025-10-15,415.00USD,UA,1 hour 30 minutes,United Airlines
+322,AI126,ORD,DOH,2025-10-27,506.65USD,AI,14 hours 30 minutes,Air India
+323,EY10,ORD,DOH,2025-10-27,651.75USD,EY,13 hours 10 minutes,Etihad Airways
+324,EY10,ORD,DOH,2025-10-27,651.75USD,EY,13 hours 10 minutes,Etihad Airways
+325,FI614,JFK,LHR,2025-10-23,268.60USD,FI,5 hours 50 minutes,Icelandair
+326,FI618,JFK,LHR,2025-10-23,270.20USD,FI,5 hours 45 minutes,Icelandair
+327,VS4000,JFK,LHR,2025-10-23,274.00USD,VS,7 hours 15 minutes,Virgin Atlantic
+328,AI126,ORD,DOH,2025-10-28,506.65USD,AI,14 hours 30 minutes,Air India
+329,EY10,ORD,DOH,2025-10-28,651.75USD,EY,13 hours 10 minutes,Etihad Airways
+330,EY10,ORD,DOH,2025-10-28,651.75USD,EY,13 hours 10 minutes,Etihad Airways
+331,WS5943,YYZ,FRA,2025-10-20,310.90USD,WS,7 hours 45 minutes,WestJet
+332,S4372,YYZ,FRA,2025-10-20,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+333,S4372,YYZ,FRA,2025-10-20,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+334,VS10,JFK,LHR,2025-10-24,274.00USD,VS,7 hours 15 minutes,Virgin Atlantic
+335,VS4000,JFK,LHR,2025-10-24,274.00USD,VS,7 hours 15 minutes,Virgin Atlantic
+336,VS4,JFK,LHR,2025-10-24,274.00USD,VS,7 hours 25 minutes,Virgin Atlantic
+337,CA984,LAX,NRT,2025-10-16,453.50USD,CA,15 hours 5 minutes,Air China
+338,CA984,LAX,NRT,2025-10-16,453.50USD,CA,15 hours 5 minutes,Air China
+339,AS1317,LAX,NRT,2025-10-16,457.00USD,AS,2 hours 58 minutes,Alaska Airlines
+340,AI126,ORD,DOH,2025-10-29,506.65USD,AI,14 hours 30 minutes,Air India
+341,EY10,ORD,DOH,2025-10-29,651.75USD,EY,13 hours 10 minutes,Etihad Airways
+342,QR726,ORD,DOH,2025-10-29,725.05USD,QR,13 hours 15 minutes,Qatar Airways
+343,WS5943,YYZ,FRA,2025-10-21,310.90USD,WS,7 hours 45 minutes,WestJet
+344,WS252,YYZ,FRA,2025-10-21,310.90USD,WS,2 hours 9 minutes,WestJet
+345,S4322,YYZ,FRA,2025-10-21,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+346,AI126,ORD,DOH,2025-10-30,536.65USD,AI,14 hours 30 minutes,Air India
+347,B65562,ORD,DOH,2025-10-30,720.05USD,B6,13 hours 15 minutes,JetBlue Airways
+348,QR726,ORD,DOH,2025-10-30,725.05USD,QR,13 hours 15 minutes,Qatar Airways
+349,VS10,JFK,LHR,2025-10-25,274.00USD,VS,7 hours 15 minutes,Virgin Atlantic
+350,B61107,JFK,LHR,2025-10-25,274.00USD,B6,7 hours 24 minutes,JetBlue Airways
+351,B67,JFK,LHR,2025-10-25,274.00USD,B6,7 hours 28 minutes,JetBlue Airways
+352,AI126,ORD,DOH,2025-10-31,583.65USD,AI,14 hours 30 minutes,Air India
+353,RJ264,ORD,DOH,2025-10-31,750.75USD,RJ,12 hours,Royal Jordanian
+354,QR726,ORD,DOH,2025-10-31,765.05USD,QR,13 hours 15 minutes,Qatar Airways
+355,VS10,JFK,LHR,2025-10-26,274.00USD,VS,6 hours 55 minutes,Virgin Atlantic
+356,VS4030,JFK,LHR,2025-10-26,274.00USD,VS,7 hours 15 minutes,Virgin Atlantic
+357,B61107,JFK,LHR,2025-10-26,274.00USD,B6,7 hours 35 minutes,JetBlue Airways
+358,CA984,LAX,NRT,2025-10-17,453.50USD,CA,15 hours 5 minutes,Air China
+359,CA984,LAX,NRT,2025-10-17,453.50USD,CA,15 hours 5 minutes,Air China
+360,AS1317,LAX,NRT,2025-10-17,457.00USD,AS,2 hours 58 minutes,Alaska Airlines
+361,WS5943,YYZ,FRA,2025-10-22,310.90USD,WS,7 hours 45 minutes,WestJet
+362,S4360,YYZ,FRA,2025-10-22,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+363,S4360,YYZ,FRA,2025-10-22,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+364,B61107,JFK,LHR,2025-10-27,274.00USD,B6,7 hours 35 minutes,JetBlue Airways
+365,B67,JFK,LHR,2025-10-27,274.00USD,B6,7 hours 35 minutes,JetBlue Airways
+366,B6718,JFK,LHR,2025-10-27,274.00USD,B6,1 hour 15 minutes,JetBlue Airways
+367,WS252,YYZ,FRA,2025-10-23,328.90USD,WS,2 hours 9 minutes,WestJet
+368,WS252,YYZ,FRA,2025-10-23,328.90USD,WS,2 hours 9 minutes,WestJet
+369,TP258,YYZ,FRA,2025-10-23,469.30USD,TP,7 hours 15 minutes,TAP Air Portugal
+370,AS1317,LAX,NRT,2025-10-18,457.00USD,AS,2 hours 58 minutes,Alaska Airlines
+371,AS1179,LAX,NRT,2025-10-18,457.00USD,AS,3 hours,Alaska Airlines
+372,HA6200,LAX,NRT,2025-10-18,457.00USD,HA,3 hours,Hawaiian Airlines
+373,VS4000,JFK,LHR,2025-10-28,274.00USD,VS,7 hours 20 minutes,Virgin Atlantic
+374,B61107,JFK,LHR,2025-10-28,274.00USD,B6,7 hours 35 minutes,JetBlue Airways
+375,B67,JFK,LHR,2025-10-28,274.00USD,B6,7 hours 35 minutes,JetBlue Airways
+376,WS5943,YYZ,FRA,2025-10-24,310.90USD,WS,7 hours 45 minutes,WestJet
+377,S4322,YYZ,FRA,2025-10-24,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+378,S4322,YYZ,FRA,2025-10-24,409.00USD,S4,5 hours 55 minutes,Azores Airlines
+379,WS5943,YYZ,FRA,2025-10-25,362.90USD,WS,7 hours 55 minutes,WestJet
+380,TP258,YYZ,FRA,2025-10-25,500.30USD,TP,7 hours 15 minutes,TAP Air Portugal
+381,DE2403,YYZ,FRA,2025-10-25,640.50USD,DE,7 hours 55 minutes,Condor
+382,VS4000,JFK,LHR,2025-10-29,274.00USD,VS,7 hours 20 minutes,Virgin Atlantic
+383,B61107,JFK,LHR,2025-10-29,274.00USD,B6,7 hours 35 minutes,JetBlue Airways
+384,B67,JFK,LHR,2025-10-29,274.00USD,B6,7 hours 35 minutes,JetBlue Airways
+385,HA6194,LAX,NRT,2025-10-19,415.00USD,HA,2 hours 56 minutes,Hawaiian Airlines
+386,JL61,LAX,NRT,2025-10-19,418.80USD,JL,11 hours 30 minutes,Japan Airlines
+387,JL69,LAX,NRT,2025-10-19,425.40USD,JL,12 hours 20 minutes,Japan Airlines
+388,WS5943,YYZ,FRA,2025-10-26,310.90USD,WS,7 hours 55 minutes,WestJet
+389,S4322,YYZ,FRA,2025-10-26,409.00USD,S4,5 hours 45 minutes,Azores Airlines
+390,S4322,YYZ,FRA,2025-10-26,409.00USD,S4,5 hours 45 minutes,Azores Airlines
+391,VS4030,JFK,LHR,2025-10-30,274.00USD,VS,7 hours 15 minutes,Virgin Atlantic
+392,B61107,JFK,LHR,2025-10-30,274.00USD,B6,7 hours 35 minutes,JetBlue Airways
+393,B67,JFK,LHR,2025-10-30,274.00USD,B6,7 hours 35 minutes,JetBlue Airways
+394,UA32,LAX,NRT,2025-10-20,415.00USD,UA,11 hours 30 minutes,United Airlines
+395,UA7945,LAX,NRT,2025-10-20,415.00USD,UA,11 hours 45 minutes,United Airlines
+396,AS1317,LAX,NRT,2025-10-20,415.00USD,AS,2 hours 58 minutes,Alaska Airlines
+397,TP262,YYZ,FRA,2025-10-27,469.30USD,TP,7 hours 15 minutes,TAP Air Portugal
+398,TP262,YYZ,FRA,2025-10-27,537.80USD,TP,7 hours 15 minutes,TAP Air Portugal
+399,FI602,YYZ,FRA,2025-10-27,625.50USD,FI,5 hours 40 minutes,Icelandair
+400,VS4000,JFK,LHR,2025-10-31,274.00USD,VS,7 hours 20 minutes,Virgin Atlantic
+401,B61107,JFK,LHR,2025-10-31,274.00USD,B6,7 hours 35 minutes,JetBlue Airways
+402,B67,JFK,LHR,2025-10-31,274.00USD,B6,7 hours 35 minutes,JetBlue Airways
+403,S4322,YYZ,FRA,2025-10-28,379.00USD,S4,5 hours 45 minutes,Azores Airlines
+404,S4322,YYZ,FRA,2025-10-28,379.00USD,S4,5 hours 45 minutes,Azores Airlines
+405,TP258,YYZ,FRA,2025-10-28,469.30USD,TP,7 hours 15 minutes,TAP Air Portugal
+406,AS1317,LAX,NRT,2025-10-21,415.00USD,AS,2 hours 58 minutes,Alaska Airlines
+407,AS1179,LAX,NRT,2025-10-21,415.00USD,AS,3 hours,Alaska Airlines
+408,HA6200,LAX,NRT,2025-10-21,415.00USD,HA,3 hours,Hawaiian Airlines
+409,WS5943,YYZ,FRA,2025-10-29,310.90USD,WS,7 hours 55 minutes,WestJet
+410,TP262,YYZ,FRA,2025-10-29,469.30USD,TP,7 hours 15 minutes,TAP Air Portugal
+411,TP262,YYZ,FRA,2025-10-29,537.80USD,TP,7 hours 15 minutes,TAP Air Portugal
+412,S4372,YYZ,FRA,2025-10-30,409.00USD,S4,5 hours 45 minutes,Azores Airlines
+413,S4372,YYZ,FRA,2025-10-30,409.00USD,S4,5 hours 45 minutes,Azores Airlines
+414,TP258,YYZ,FRA,2025-10-30,491.30USD,TP,7 hours 15 minutes,TAP Air Portugal
+415,AS1317,LAX,NRT,2025-10-22,415.00USD,AS,2 hours 58 minutes,Alaska Airlines
+416,AS1179,LAX,NRT,2025-10-22,415.00USD,AS,3 hours,Alaska Airlines
+417,HA6200,LAX,NRT,2025-10-22,415.00USD,HA,3 hours,Hawaiian Airlines
+418,WS5943,YYZ,FRA,2025-10-31,310.90USD,WS,7 hours 55 minutes,WestJet
+419,S4360,YYZ,FRA,2025-10-31,409.00USD,S4,5 hours 45 minutes,Azores Airlines
+420,S4360,YYZ,FRA,2025-10-31,409.00USD,S4,5 hours 45 minutes,Azores Airlines
+421,CA984,LAX,NRT,2025-10-23,453.50USD,CA,15 hours 5 minutes,Air China
+422,CA984,LAX,NRT,2025-10-23,453.50USD,CA,15 hours 5 minutes,Air China
+423,AS1317,LAX,NRT,2025-10-23,457.00USD,AS,2 hours 58 minutes,Alaska Airlines
+424,CA984,LAX,NRT,2025-10-24,453.50USD,CA,15 hours 5 minutes,Air China
+425,AS1317,LAX,NRT,2025-10-24,457.00USD,AS,2 hours 58 minutes,Alaska Airlines
+426,AS1179,LAX,NRT,2025-10-24,457.00USD,AS,3 hours,Alaska Airlines
+427,AS1317,LAX,NRT,2025-10-25,457.00USD,AS,2 hours 58 minutes,Alaska Airlines
+428,AS1179,LAX,NRT,2025-10-25,457.00USD,AS,3 hours,Alaska Airlines
+429,HA6200,LAX,NRT,2025-10-25,457.00USD,HA,3 hours,Hawaiian Airlines
+430,AS1179,LAX,NRT,2025-10-26,415.00USD,AS,3 hours,Alaska Airlines
+431,HA6200,LAX,NRT,2025-10-26,415.00USD,HA,3 hours,Hawaiian Airlines
+432,UA1170,LAX,NRT,2025-10-26,415.00USD,UA,5 hours 50 minutes,United Airlines
+433,UA32,LAX,NRT,2025-10-27,415.00USD,UA,11 hours 45 minutes,United Airlines
+434,UA7945,LAX,NRT,2025-10-27,415.00USD,UA,12 hours,United Airlines
+435,AS1317,LAX,NRT,2025-10-27,415.00USD,AS,2 hours 58 minutes,Alaska Airlines
+436,AS1317,LAX,NRT,2025-10-28,415.00USD,AS,2 hours 58 minutes,Alaska Airlines
+437,AS1179,LAX,NRT,2025-10-28,415.00USD,AS,3 hours,Alaska Airlines
+438,HA6205,LAX,NRT,2025-10-28,415.00USD,HA,2 hours 58 minutes,Hawaiian Airlines
+439,AS1317,LAX,NRT,2025-10-29,415.00USD,AS,2 hours 58 minutes,Alaska Airlines
+440,AS1179,LAX,NRT,2025-10-29,415.00USD,AS,3 hours,Alaska Airlines
+441,HA6205,LAX,NRT,2025-10-29,415.00USD,HA,2 hours 58 minutes,Hawaiian Airlines
+442,CA984,LAX,NRT,2025-10-30,453.50USD,CA,15 hours 5 minutes,Air China
+443,CA984,LAX,NRT,2025-10-30,453.50USD,CA,15 hours 5 minutes,Air China
+444,UA32,LAX,NRT,2025-10-30,457.00USD,UA,11 hours 45 minutes,United Airlines
+445,CA984,LAX,NRT,2025-10-31,453.50USD,CA,15 hours 5 minutes,Air China
+446,AS1317,LAX,NRT,2025-10-31,457.00USD,AS,2 hours 58 minutes,Alaska Airlines
+447,AS1179,LAX,NRT,2025-10-31,457.00USD,AS,3 hours,Alaska Airlines

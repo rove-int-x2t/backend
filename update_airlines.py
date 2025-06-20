@@ -2,6 +2,7 @@ import sqlite3
 
 carrier_map = {
     "WS": "WestJet",
+    "VS": "Virgin Atlantic",
     "UA": "United Airlines",
     "TP": "TAP Air Portugal",
     "S4": "Azores Airlines",

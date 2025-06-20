@@ -4,6 +4,7 @@ from iso_convert import format_iso8601_duration
 from concurrent.futures import ThreadPoolExecutor
 import requests
 from airlineUtils import get_airline_name
+import sqlite3
 
 
 def contact_api(loopAmt, origin, destination):
@@ -58,7 +59,7 @@ def contact_api(loopAmt, origin, destination):
                 "flight_time": flight_data["flight_time"]
             })
 
-        append_flight_data(flights_to_insert)  # 🔥 insert into DB
+        append_flight_data(flights_to_insert)
         finalResult.append(data)
 
         print(f"Inserted {len(flights_to_insert)} flights for 2025-10-{day}")
@@ -83,30 +84,5 @@ with ThreadPoolExecutor(max_workers=5) as executor:
         except Exception as e:
             print(f"Error in thread: {e}")
             
-carrier_map = {
-    "B6": "JetBlue Airways",
-    "UA": "United Airlines",
-    "AA": "American Airlines",
-    "DL": "Delta Air Lines",
-    "LH": "Lufthansa",
-    "QR": "Qatar Airways",
-    "BA": "British Airways",
-    "AC": "Air Canada",
-    "NH": "All Nippon Airways",
-    # add others as needed
-}
 
-def update_airline_names(db_path="database.db"):
-    conn = sqlite3.connect(db_path)
-    cursor = conn.cursor()
-
-    for code, name in carrier_map.items():
-        cursor.execute("""
-            UPDATE flights
-            SET airline_name = ?
-            WHERE flight_number LIKE ?
-        """, (name, f"{code}%"))
-
-    conn.commit()
-    conn.close()
             
