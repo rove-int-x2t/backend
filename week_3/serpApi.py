@@ -2,6 +2,12 @@ from serpapi import GoogleSearch
 import json
 from datetime import datetime
 import math
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+api_key = os.getenv("SERPAPI_SECRET")
 
 class FlightComparator:
     def __init__(self, api_key):
@@ -325,7 +331,7 @@ class FlightComparator:
 # Usage Example
 if __name__ == "__main__":
     # Initialize the comparator with your API key
-    API_KEY = "99e63b8f8f72ce29dfa168d7d8cf959f9014720e1818335bb7beed57dc968736"
+    API_KEY = api_key
     comparator = FlightComparator(API_KEY)
     
     # Compare flights for your route
