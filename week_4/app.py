@@ -4,7 +4,7 @@ import re
 import datetime
 
 st.set_page_config(page_title="Rewards Redemption Optimizer", layout="centered")
-st.title("✈️ Rewards Redemption Optimizer")
+st.title("Rewards Redemption Optimizer")
 st.write("Find the best value for your airline miles or points!")
 
 # --- Helper functions ---
@@ -13,7 +13,7 @@ def parse_price(price_str):
     return float(match.group(1)) if match else None
 
 def get_flights(departure, arrival, start_date, end_date):
-    conn = sqlite3.connect("../week_2/database.db")
+    conn = sqlite3.connect("./database.db")
     cursor = conn.cursor()
     cursor.execute(
         """
